@@ -49,6 +49,7 @@ This module will help you to generate a unique resource name by adding `random_i
 - codepipeline
 - db_instance
 - db_parameter_group
+- db_snapshot
 - dynamodb_table
 - ecr_repository
 - ecs_cluster

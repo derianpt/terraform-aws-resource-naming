@@ -11,6 +11,7 @@ locals {
     "codepipeline"                        = "100" # https://docs.aws.amazon.com/codepipeline/latest/APIReference/API_PipelineDeclaration.html#CodePipeline-Type-PipelineDeclaration-name
     "db_instance"                         = "63"  # https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_CreateDBInstance.html
     "db_parameter_group"                  = "255" # https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_CreateDBParameterGroup.html
+    "db_snapshot"                         = "255" # https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_CreateDBSnapshot.html
     "dynamodb_table"                      = "255" # https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_CreateTable.html
     "ecr_repository"                      = "256" # https://docs.aws.amazon.com/AmazonECR/latest/APIReference/API_CreateRepository.html#ECR-CreateRepository-request-repositoryName
     "ecs_cluster"                         = "255" # https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_CreateCluster.html#ECS-CreateCluster-request-clusterName
